@@ -3,7 +3,7 @@
 <?php
 error_reporting(0);
 session_start();
-$conn=mysqli_connect("localhost", "root", "", "laravel");
+$conn=mysqli_connect("localhost", "root", "", "voyage");
 $name1=$_SESSION['name'];
 $price1=$_SESSION['price'];
 $image1=$_SESSION['image'];
