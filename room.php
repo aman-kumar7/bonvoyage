@@ -14,7 +14,7 @@ alert('Please Login to Bon Voyage');
 window.location.href='login.php';
 </script>";
 }
-$conn = mysqli_connect("localhost", "root", "", "laravel");
+$conn = mysqli_connect("localhost", "root", "", "voyage");
 if(isset($_POST["book"]))
 {
 $_SESSION['room']=$_POST['name'];
