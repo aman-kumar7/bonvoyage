@@ -392,7 +392,8 @@ It caught our attention for a few reasons: much smaller crowd, sleepy colorful t
         
     			<div class="col-md-12 tour-wrap">
             
-            <p><input type="submit" name="book1" class="btn btn-success" value="Book Now" /> <input type="submit" name="cancel" class="btn btn-danger" value="Cancel Booking" />
+            <p><input type="submit" name="book1" class="btn btn-success" value="Book Now" /> 
+		    <button name="cancel" class="btn btn-danger" >Cancel Booking</button>
           </div>
           </form>
          </div>     
